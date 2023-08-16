@@ -3,30 +3,31 @@
     "BIDSVersion": "1.8.0",
     "DatasetType": "raw",
     "Authors": [
-      "Bari Fuchs",
-      "Alaina Pearce",
-      "Barbara Rolls",
-      "Stephen Wilson",
-      "Emma Jane Rose",
-      "Charles Geier",
-      "Hugh Garavan",
-      "Kathleen Keller"
+        "Bari Fuchs",
+        "Alaina Pearce",
+        "Barbara Rolls",
+        "Stephen Wilson",
+        "Emma Jane Rose",
+        "Charles Geier",
+        "Hugh Garavan",
+        "Kathleen Keller"
     ],
-    "DatasetDOI": "",
+    "DatasetDOI": "doi:10.18112/openneuro.ds004697.v1.0.0",
     "GeneratedBy": [
-      {
-        "Name": "dcm2bids",
-        "Version": "2.1.6",
-        "Description":"Used to convert and organize dicoms into BIDS"
+        {
+            "Name": "dcm2bids",
+            "Version": "2.1.6",
+            "Description": "Used to convert and organize dicoms into BIDS"
         },
-    {
-        "Name": "Manual",
-        "Description":"Added 'IntendedFor' and 'TaskName' keys to fmap and func .json files, respectively"
+        {
+            "Name": "Manual",
+            "Description": "Added 'IntendedFor' and 'TaskName' keys to fmap and func .json files, respectively"
         },
-    {
-        "Name": "pydeface",
-        "Version":"2.0.2",
-        "Description":"Used to de-face MPRage scans"
+        {
+            "Name": "pydeface",
+            "Version": "2.0.2",
+            "Description": "Used to de-face MPRage scans"
         }
-    ]
-  }
+    ],
+    "License": "CC0"
+}
