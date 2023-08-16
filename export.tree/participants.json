@@ -1,0 +1,43 @@
+{
+    "participant_id": {
+        "Description": "participant id"
+    },
+    "sex": {
+        "Description": "sex of the participant",
+        "Levels": {
+            "Male": "male",
+            "Female": "female"
+        }
+    },
+    "age": {
+        "Description": "age in years at baseline"
+    },
+    "bmi_percentile": {
+        "Description": "bmi percentile calculated using childsds R package and average height and weight (measured on visit 1)"
+    },
+    "ethnicity": {
+        "Description": "ethnicity of child, reported by parent",
+        "Levels": {
+            "NOT Hispanic or Latino": "not hispanic or latino",
+            "Hispanic or Latino": "hispanic or latino"
+        }
+    },
+    "race": {
+        "Description": "race of participant (child), reported by parent",
+        "Levels": {
+            "White/Caucation": "White/Caucation",
+            "American Indian/Alaskan Native": "American Indian/Alaskan Native",
+            "Asian": "Asian",
+            "Black/African American": "Black/African American",
+            "Hawaiian/Pacific Islander" : "Hawaiian/Pacific Islander"
+        }
+    },
+    "risk_status_mom": {
+        "Description": "Familial risk status for obesity based on maternal BMI",
+        "Levels": {
+            "Low risk": "Mom BMI < 26",
+            "High Risk": "Mom BMI >= 29"
+        }
+
+    }
+}
