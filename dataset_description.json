@@ -12,7 +12,7 @@
         "Hugh Garavan",
         "Kathleen Keller"
     ],
-    "DatasetDOI": "doi:10.18112/openneuro.ds004697.v1.0.1",
+    "DatasetDOI": "doi:10.18112/openneuro.ds004697.v1.0.2",
     "GeneratedBy": [
         {
             "Name": "dcm2bids",
